@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Art Studio | Ignite the Imagination</title>
+    <meta name="description" content="企鹅兰登签约漫画家Charlotte创办的高端少儿美术工作室。专注于青少年漫画创作与儿童立体视觉叙事启发。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Zhi+Mang+Xing&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/avatar.png">
+    <link rel="apple-touch-icon" href="assets/avatar.png">
+</head>
+    <!-- 漫画风闪屏动画 (Preloader Splash) -->
+    <div id="site-preloader">
+        <div class="hole-wipe"></div>
+        <img src="assets/avatar.png" alt="Charlotte Manga Avatar" class="preloader-avatar">
+    </div>
+
+    <!-- 顶部导航 -->
+    <header id="site-header">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/avatar.png" alt="Logo Avatar" class="header-avatar">
+                    <span>Charlotte Art Studio<span class="dot">.</span></span>
+                </a>
+            </div>
+            <nav class="desktop-nav">
+                <a href="#about">
+                    <span class="lang lang-en">Meet Charlotte</span>
+                    <span class="lang lang-zh">遇见导师</span>
+                </a>
+                <a href="#portfolio">
+                    <span class="lang lang-en">Portfolio</span>
+                    <span class="lang lang-zh">作品集</span>
+                </a>
+                <a href="#programs">
+                    <span class="lang lang-en">Programs</span>
+                    <span class="lang lang-zh">核心课程</span>
+                </a>
+                <a href="#gallery">
+                    <span class="lang lang-en">Gallery</span>
+                    <span class="lang lang-zh">虚拟展厅</span>
+                </a>
+            </nav>
+            <div class="header-actions">
+                <button type="button" id="lang-toggle" class="btn btn-outline btn-sm lang-toggle-btn">
+                    <span class="lang lang-en">中文</span>
+                    <span class="lang lang-zh">EN</span>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-sm">
+                    <span class="lang lang-en">Book Trial</span>
+                    <span class="lang lang-zh">预约试听</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 首页视差区 (Hero) -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg js-parallax">
+                <video class="hero-image" autoplay loop muted playsinline poster="assets/hero_bg.png">
+                    <source src="assets/hero_video.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content reveal-up">
+                <h1>
+                    <span class="lang lang-en">Ignite the<br><span class="italic">Imagination</span></span>
+                    <span class="lang lang-zh"><span class="handwriting-zh">点燃</span><br><span class="handwriting-zh">想象力</span></span>
+                </h1>
+                <p class="subtitle">
+                    <span class="lang lang-en">Founded by a Penguin Random House signed comic artist.<br>Inspiring high-level aesthetics and creative expression through professional visual storytelling.</span>
+                    <span class="lang lang-zh">由美国企鹅兰登书屋签约漫画家倾力创办。<br>以专业视觉叙事，启蒙高级审美与创作表达。</span>
+                </p>
+                <div class="hero-ctas">
+                    <a href="#programs" class="btn btn-primary">
+                        <span class="lang lang-en">Explore Programs</span>
+                        <span class="lang lang-zh">探索艺术课程</span>
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline">
+                        <span class="lang lang-en">View Portfolio</span>
+                        <span class="lang lang-zh">查看导师作品</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 导师介绍区 (Meet Charlotte) -->
+        <section id="about" class="about-section">
+            <div class="container grid-2-col">
+                <div class="about-image-wrap reveal-up">
+                    <img src="assets/charlotte_portrait.jpg" alt="Charlotte Portrait" class="about-portrait">
+                    <!-- Penguin Random House Logo placeholder -->
+                    <div class="badge">
+                        <div class="badge-icon" style="background: transparent; box-shadow: none; padding: 0;">
+                            <img src="assets/penguin_logo.png" alt="Penguin Random House Logo" style="width: 48px; height: 48px; object-fit: contain;">
+                        </div>
+                        <span>
+                            <span class="lang lang-en"><span class="brand-highlight">Penguin Random House</span>Signed Author</span>
+                            <span class="lang lang-zh"><span class="brand-highlight">企鹅兰登书屋</span>签约作者</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="about-text-wrap reveal-up delay-1">
+                    <span class="section-label">
+                        <span class="lang lang-en">Meet Charlotte</span>
+                        <span class="lang lang-zh">遇见导师 | Meet Charlotte</span>
+                    </span>
+                    <h2>
+                        <span class="lang lang-en">Turning professional storytelling<br>into creative enlightenment.</span>
+                        <span class="lang lang-zh">将专业叙事<br>化为创造力的启蒙。</span>
+                    </h2>
+                    <div class="bio-content">
+                        <div class="lang lang-en">
+                            <p>“As a comic creator deeply rooted in the top-tier international publishing industry, I know that 'visual language' holds the power to transform and heal.</p>
+                            <p>Founding Charlotte Art Studio is not just about teaching techniques; it's about translating 'professional visual storytelling' into creative enlightenment tailored for youth. We believe every child is born an artist—all they need is the right light, materials filled with possibilities, and an industry guide who truly understands them.”</p>
+                        </div>
+                        <div class="lang lang-zh">
+                            <p>“作为一名在国际顶级出版界深耕多年的漫画创作者，我深知‘视觉语言’拥有改变和治愈的力量。</p>
+                            <p>创办 Charlotte Art Studio，不仅是为了传授绘画与手工的技巧，更是致力于将‘专业级别的视觉叙事’转化为属于青少年的创造力启蒙。我们相信，每一个孩子都是天生的艺术家，他们需要的只是一束对的光线、充满可能性的材料，以及一位懂他们的行业向导。”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 出版作品区 (Portfolio) -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container relative">
+                <div class="section-header reveal-up">
+                    <span class="section-label">
+                        <span class="lang lang-en">Professional Portfolio</span>
+                        <span class="lang lang-zh">出版物与个人作品集 | Professional Portfolio</span>
+                    </span>
+                    <h2>
+                        <span class="lang lang-en">Feel the power and warmth<br>of professional comics.</span>
+                        <span class="lang lang-zh">感受专业漫画<br>带来的力量与温度。</span>
+                    </h2>
+                </div>
+            </div>
+            <!-- 作品集横向滚动 -->
+            <div class="portfolio-marquee-container reveal-up delay-1" id="portfolio-marquee">
+                <div class="portfolio-marquee-track">
+                    <!-- 由 JS 渲染注入 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 核心课程区 (Programs) -->
+        <section id="programs" class="programs-section bg-warm">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="section-label">
+                        <span class="lang lang-en">Creative Programs</span>
+                        <span class="lang lang-zh">核心艺术课程 | Creative Programs</span>
+                    </span>
+                    <h2>
+                        <span class="lang lang-en">A laboratory to ignite imagination.</span>
+                        <span class="lang lang-zh">激发想象的实验场。</span>
+                    </h2>
+                </div>
+                
+                <div class="programs-grid">
+                    <!-- 课程1: 美术基础 -->
+                    <div class="program-card reveal-up">
+                        <div class="pg-image">
+                            <img src="assets/class_foundations.jpg" alt="Art Foundations" onerror="this.src='assets/class_crafts.jpg'">
+                        </div>
+                        <div class="pg-content">
+                            <span class="tag">
+                                <span class="lang lang-en">Kids & Teens</span>
+                                <span class="lang lang-zh">Kids & Teens</span>
+                            </span>
+                            <h3>
+                                <span class="lang lang-en">Art Foundations</span>
+                                <span class="lang lang-zh">美术基础<br>(Art Foundations)</span>
+                            </h3>
+                            <p>
+                                <span class="lang lang-en">Develop a systematic understanding of visual arts. Through focused study of proportions, shading, perspective, and color harmony, build essential techniques that apply to any medium.</span>
+                                <span class="lang lang-zh">系统建立视觉艺术认知。通过对比例、透视、光影与色彩法则的深度训练，夯实关键基本功。这份稳固的基石能够无缝衔接未来任何媒介的高阶艺术创作。</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 课程2: 插画与审美 -->
+                    <div class="program-card reveal-up delay-1">
+                        <div class="pg-image">
+                            <img src="assets/class_crafts.jpg" alt="Illustration & Aesthetics">
+                        </div>
+                        <div class="pg-content">
+                            <span class="tag">
+                                <span class="lang lang-en">Kids (5-10 y/o)</span>
+                                <span class="lang lang-zh">Kids (5-10岁)</span>
+                            </span>
+                            <h3>
+                                <span class="lang lang-en">Illustration & Aesthetics</span>
+                                <span class="lang lang-zh">插画与审美<br>(Illustration & Aesthetics)</span>
+                            </h3>
+                            <p>
+                                <span class="lang lang-en">Perfect for budding young artists. Explore color theory, line work, and imaginative composition using various drawing materials to build a strong artistic and aesthetic foundation.</span>
+                                <span class="lang lang-zh">为儿童打造的综合艺术启蒙课。在绘画实践中探索色彩感知、线条表现与创意构图，培养扎实的造型能力与不可多得的高级审美视角。</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 课程3: 漫画创作 -->
+                    <div class="program-card reveal-up delay-2">
+                        <div class="pg-image">
+                            <img src="assets/class_comic.jpg" alt="Comic Creation">
+                        </div>
+                        <div class="pg-content">
+                            <span class="tag">
+                                <span class="lang lang-en">Teens (10-18 y/o)</span>
+                                <span class="lang lang-zh">Teens (10-18岁)</span>
+                            </span>
+                            <h3>
+                                <span class="lang lang-en">Comic Creation</span>
+                                <span class="lang lang-zh">漫画创作<br>(Comic Creation)</span>
+                            </h3>
+                            <p>
+                                <span class="lang lang-en">Say goodbye to mechanical tracing. Learn professional visual storytelling, from script formulation and character design to advanced storyboarding, guided by a published author.</span>
+                                <span class="lang lang-zh">告别机械临摹，迈向专业级视觉叙事。跟随资深出版漫画家，系统学习剧本构思、原创新角色设定与进阶分镜技巧，将想象化为连载漫画作品。</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 课程4: 手工粘土 -->
+                    <div class="program-card reveal-up delay-3">
+                        <div class="pg-image">
+                            <img src="assets/class_clay.jpg" alt="Handmade Clay">
+                        </div>
+                        <div class="pg-content">
+                            <span class="tag">
+                                <span class="lang lang-en">All Ages</span>
+                                <span class="lang lang-zh">All Ages (全年龄段)</span>
+                            </span>
+                            <h3>
+                                <span class="lang lang-en">Handmade Clay</span>
+                                <span class="lang lang-zh">手工粘土<br>(Handmade Clay)</span>
+                            </h3>
+                            <p>
+                                <span class="lang lang-en">Bring whimsical ideas to life in 3D. Experience the tactile joy of molding clay to cultivate exceptional spatial reasoning and a deeper understanding of volume and form.</span>
+                                <span class="lang lang-zh">将平面奇思妙想转化为3D立体世界。在充满手作温度的课堂中，通过感知粘土极其丰富的材质肌理，培养极佳的空间构造思维与扎实的立体造型能力。</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 课程5: 数码绘画 -->
+                    <div class="program-card reveal-up delay-4">
+                        <div class="pg-image">
+                            <img src="assets/class_digital.jpg" alt="Digital Art" onerror="this.src='assets/class_comic.jpg'">
+                        </div>
+                        <div class="pg-content">
+                            <span class="tag">
+                                <span class="lang lang-en">Teens (10-18 y/o)</span>
+                                <span class="lang lang-zh">Teens (10-18岁)</span>
+                            </span>
+                            <h3>
+                                <span class="lang lang-en">Digital Art</span>
+                                <span class="lang lang-zh">数码绘画<br>(Digital Art)</span>
+                            </h3>
+                            <p>
+                                <span class="lang lang-en">Master industry-standard tools. Starting with Procreate basics, learn brush application, layer logic, and digital effects to bring your artwork to life on screen.</span>
+                                <span class="lang lang-zh">掌握最前沿的数字创作工具。从熟练操作 Procreate 软件入门，系统学习各类笔刷运用、图层逻辑与电绘特效，让原本的画技在屏幕上焕发专业级新生。</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 学生虚拟展厅 (Gallery) -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-label">
+                        <span class="lang lang-en">The Gallery</span>
+                        <span class="lang lang-zh">线上虚拟展厅 | The Gallery</span>
+                    </span>
+                    <h2>
+                        <span class="lang lang-en">Every child's universe is a masterpiece<br>worth keeping.</span>
+                        <span class="lang lang-zh">每一个孩子脑海中的宇宙<br>都值得被当作顶级艺术品珍藏。</span>
+                    </h2>
+                </div>
+            </div>
+                
+            <div class="portfolio-marquee-container reveal-up delay-1" id="student-gallery-container">
+                <!-- Images auto-injected by app.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部与表单 (Footer & Contact) -->
+    <footer id="contact" class="footer-section bg-charcoal">
+        <div class="container grid-2-col align-items-center">
+            
+            <div class="contact-form-wrap reveal-up">
+                <h3>
+                    <span class="lang lang-en">Start the Journey</span>
+                    <span class="lang lang-zh">开启艺术之旅</span>
+                </h3>
+                <p>
+                    <span class="lang lang-en">Book a session today.</span>
+                    <span class="lang lang-zh">立刻为您的孩子预约名额</span>
+                </p>
+                <!-- Formspree Success Message -->
+                <div data-fs-success class="form-success text-center" style="margin-top: 2rem;">
+                    <h4 style="color: var(--sage-green); margin: 0;">
+                        <span class="lang lang-en">Thanks! We'll get back to you soon.</span>
+                        <span class="lang lang-zh">提交成功！我们会尽快与您联系。</span>
+                    </h4>
+                </div>
+
+                <form class="minimal-form" id="contact-form">
+                    <div data-fs-error style="color: #ff6b6b; margin-bottom: 1rem; font-size: 0.85rem;"></div>
+                    
+                    <div class="input-group">
+                        <input type="text" name="parent_name" id="parent_name" data-en="Parent's Name" data-zh="家长姓名" placeholder="家长姓名" data-fs-field required>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="child_age" id="child_age" data-en="Child's Age" data-zh="孩子年龄" placeholder="孩子年龄" data-fs-field required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" data-en="Email Address" data-zh="邮箱地址" placeholder="邮箱地址" data-fs-field required>
+                    </div>
+
+                    <div style="font-size: 0.75rem; color: rgba(255,255,255,0.5); text-align: center; margin-bottom: 1rem; letter-spacing: 0.03em;">
+                        <span class="lang lang-en">* Please note: Trial classes are subject to a fee.</span>
+                        <span class="lang lang-zh">* 温馨提示：预约体验课为付费服务</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary full-width" data-fs-submit-btn>
+                        <span class="lang lang-en">Book a Trial Class</span>
+                        <span class="lang lang-zh">预约体验课</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="footer-info reveal-up delay-1">
+                <div class="logo-footer">Charlotte Art Studio.</div>
+                
+                <div class="info-block mt-2">
+                    <h5>
+                        <span class="lang lang-en">Studio Location</span>
+                        <span class="lang lang-zh">工作室地址</span>
+                    </h5>
+                    <p>297 Allard Blvd SW</p>
+                </div>
+                
+                <div class="info-block mt-2">
+                    <h5>
+                        <span class="lang lang-en">Inquiries</span>
+                        <span class="lang lang-zh">咨询邮箱</span>
+                    </h5>
+                    <p><a href="mailto:charlottewooart@gmail.com" class="footer-link">charlottewooart@gmail.com</a></p>
+                </div>
+
+                <div class="info-block mt-2">
+                    <h5>
+                        <span class="lang lang-en">WeChat</span>
+                        <span class="lang lang-zh">微信联系</span>
+                    </h5>
+                    <img src="assets/微信.png" alt="WeChat QR Code" style="width: 120px; border-radius: 8px; margin-top: 8px;">
+                </div>
+
+                <div class="social-links mt-2">
+                    <a href="https://www.xiaohongshu.com/user/profile/5c47cc12000000001201fadf?xsec_token=YBgjPvaruBa5ivVFEdfagDb0VxQ6I_i-f04qCajXUxqsA=&xsec_source=app_share&xhsshare=WeixinSession&appuid=5c47cc12000000001201fadf&apptime=1776099678&share_id=242cb65dfd5c416cb8fbd9d5ac6d5fd8" target="_blank" rel="noopener noreferrer" aria-label="Xiaohongshu">
+                        <svg class="icon-sm" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M22.405 9.879c.002.016.01.02.07.019h.725a.797.797 0 0 0 .78-.972.794.794 0 0 0-.884-.618.795.795 0 0 0-.692.794c0 .101-.002.666.001.777zm-11.509 4.808c-.203.001-1.353.004-1.685.003a2.528 2.528 0 0 1-.766-.126.025.025 0 0 0-.03.014L7.7 16.127a.025.025 0 0 0 .01.032c.111.06.336.124.495.124.66.01 1.32.002 1.981 0 .01 0 .02-.006.023-.015l.712-1.545a.025.025 0 0 0-.024-.036zM.477 9.91c-.071 0-.076.002-.076.01a.834.834 0 0 0-.01.08c-.027.397-.038.495-.234 3.06-.012.24-.034.389-.135.607-.026.057-.033.042.003.112.046.092.681 1.523.787 1.74.008.015.011.02.017.02.008 0 .033-.026.047-.044.147-.187.268-.391.371-.606.306-.635.44-1.325.486-1.706.014-.11.021-.22.03-.33l.204-2.616.022-.293c.003-.029 0-.033-.03-.034zm7.203 3.757a1.427 1.427 0 0 1-.135-.607c-.004-.084-.031-.39-.235-3.06a.443.443 0 0 0-.01-.082c-.004-.011-.052-.008-.076-.008h-1.48c-.03.001-.034.005-.03.034l.021.293c.076.982.153 1.964.233 2.946.05.4.186 1.085.487 1.706.103.215.223.419.37.606.015.018.037.051.048.049.02-.003.742-1.642.804-1.765.036-.07.03-.055.003-.112zm3.861-.913h-.872a.126.126 0 0 1-.116-.178l1.178-2.625a.025.025 0 0 0-.023-.035l-1.318-.003a.148.148 0 0 1-.135-.21l.876-1.954a.025.025 0 0 0-.023-.035h-1.56c-.01 0-.02.006-.024.015l-.926 2.068c-.085.169-.314.634-.399.938a.534.534 0 0 0-.02.191.46.46 0 0 0 .23.378.981.981 0 0 0 .46.119h.59c.041 0-.688 1.482-.834 1.972a.53.53 0 0 0-.023.172.465.465 0 0 0 .23.398c.15.092.342.12.475.12l1.66-.001c.01 0 .02-.006.023-.015l.575-1.28a.025.025 0 0 0-.024-.035zm-6.93-4.937H3.1a.032.032 0 0 0-.034.033c0 1.048-.01 2.795-.01 6.829 0 .288-.269.262-.28.262h-.74c-.04.001-.044.004-.04.047.001.037.465 1.064.555 1.263.01.02.03.033.051.033.157.003.767.009.938-.014.153-.02.3-.06.438-.132.3-.156.49-.419.595-.765.052-.172.075-.353.075-.533.002-2.33 0-4.66-.007-6.991a.032.032 0 0 0-.032-.032zm11.784 6.896c0-.014-.01-.021-.024-.022h-1.465c-.048-.001-.049-.002-.05-.049v-4.66c0-.072-.005-.07.07-.07h.863c.08 0 .075.004.075-.074V8.393c0-.082.006-.076-.08-.076h-3.5c-.064 0-.075-.006-.075.073v1.445c0 .083-.006.077.08.077h.854c.075 0 .07-.004.07.07v4.624c0 .095.008.084-.085.084-.37 0-1.11-.002-1.304 0-.048.001-.06.03-.06.03l-.697 1.519s-.014.025-.008.036c.006.01.013.008.058.008 1.748.003 3.495.002 5.243.002.03-.001.034-.006.035-.033v-1.539zm4.177-3.43c0 .013-.007.023-.02.024-.346.006-.692.004-1.037.004-.014-.002-.022-.01-.022-.024-.005-.434-.007-.869-.01-1.303 0-.072-.006-.071.07-.07l.733-.003c.041 0 .081.002.12.015.093.025.16.107.165.204.006.431.002 1.153.001 1.153zm2.67.244a1.953 1.953 0 0 0-.883-.222h-.18c-.04-.001-.04-.003-.042-.04V10.21c0-.132-.007-.263-.025-.394a1.823 1.823 0 0 0-.153-.53 1.533 1.533 0 0 0-.677-.71 2.167 2.167 0 0 0-1-.258c-.153-.003-.567 0-.72 0-.07 0-.068.004-.068-.065V7.76c0-.031-.01-.041-.046-.039H17.93s-.016 0-.023.007c-.006.006-.008.012-.008.023v.546c-.008.036-.057.015-.082.022h-.95c-.022.002-.028.008-.03.032v1.481c0 .09-.004.082.082.082h.913c.082 0 .072.128.072.128V11.19s.003.117-.06.117h-1.482c-.068 0-.06.082-.06.082v1.445s-.01.068.064.068h1.457c.082 0 .076-.006.076.079v3.225c0 .088-.007.081.082.081h1.43c.09 0 .082.007.082-.08v-3.27c0-.029.006-.035.033-.035l2.323-.003c.098 0 .191.02.28.061a.46.46 0 0 1 .274.407c.008.395.003.79.003 1.185 0 .259-.107.367-.33.367h-1.218c-.023.002-.029.008-.028.033.184.437.374.871.57 1.303a.045.045 0 0 0 .04.026c.17.005.34.002.51.003.15-.002.517.004.666-.01a2.03 2.03 0 0 0 .408-.075c.59-.18.975-.698.976-1.313v-1.981c0-.128-.01-.254-.034-.38 0 .078-.029-.641-.724-.998z"/></svg>
+                    </a>
+                    <a href="https://x.com/charlottechen64" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                        <svg class="icon-sm" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://www.youtube.com/@charlottewoo146" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <svg class="icon-sm" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                </div>
+                
+                <div class="copyright">
+                    &copy; <span class="lang lang-en">2026 Charlotte Art Studio. Design by winston.</span><span class="lang lang-zh">2026 Charlotte Art Studio. Design by winston.</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Background Music -->
+    <audio id="bg-music" autoplay>
+        <!-- JS 控制播放列表，请在 assets 放 bg_music_1.mp3, bg_music_2.mp3, bg_music_3.mp3 -->
+    </audio>
+
+    <!-- Music Player Toggler -->
+    <button id="music-toggle" class="music-toggle" aria-label="Toggle Background Music">
+        <div class="sound-wave">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </button>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true">
+        <div class="lightbox-overlay js-close-lightbox"></div>
+        <div class="lightbox-content">
+            <button class="btn-close-lightbox js-close-lightbox" aria-label="Close Lightbox">&times;</button>
+            <img id="lightbox-image" src="" alt="Enlarged Artwork">
+        </div>
+    </div>
+
+    <!-- Formspree SDK -->
+    <script>
+        window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+        formspree('initForm', { formElement: '#contact-form', formId: 'mdaykzqz' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
