@@ -228,6 +228,12 @@ section {
     align-items: center;
 }
 
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .logo a {
     display: flex;
     align-items: center;
@@ -826,6 +832,13 @@ html[data-lang="en"] .lang-zh { display: none !important; }
 @media (max-width: 600px) {
     .masonry-grid { columns: 1; }
     .hero-ctas { flex-direction: column; }
+    
+    /* Header Mobile Optimization */
+    .logo a { font-size: 1.2rem; gap: 0.4rem; }
+    .logo span { max-width: 130px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; vertical-align: middle; }
+    .header-avatar { width: 32px; height: 32px; }
+    .header-actions { gap: 0.4rem; }
+    .btn-sm { padding: 0.4rem 0.8rem; font-size: 0.7rem; }
 }
 
 
